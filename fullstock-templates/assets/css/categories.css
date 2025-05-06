@@ -2,7 +2,7 @@
 html, body {
     margin: 0 auto;
     padding: 0;
-    max-width: 1280px;
+    max-width: 1216px;
 }
 
 
@@ -43,4 +43,13 @@ strong p{
     color: black;
     margin-top: 1rem;
     margin-bottom: 8px;
+}
+
+@media (max-width: 784px) {
+    figure img{
+        width: 384px;
+        height: 218.67px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
 }
