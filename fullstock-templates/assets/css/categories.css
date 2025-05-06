@@ -45,11 +45,17 @@ strong p{
     margin-bottom: 8px;
 }
 
-@media (max-width: 784px) {
+@media (max-width: 768px) {
     figure img{
         width: 384px;
         height: 218.67px;
         object-fit: cover;
         border-radius: 8px;
+    }
+
+    html, body {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 384px;
     }
 }
